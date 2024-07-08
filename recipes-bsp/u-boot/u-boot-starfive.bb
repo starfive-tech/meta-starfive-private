@@ -22,7 +22,7 @@ BRANCH:starfive-jh8100 = "jh8100_fpga_dev_v2023.01_rebase_v2_2.0.8"
 SRCREV:starfive-jh8100 = "442d4f8d5bc53f52b88d1d410709f3441d4f94af"
 
 SRC_URI:starfive-dubhe = "\
-	git://github.com/${FORK}/u-boot.git;protocol=https;branch=${BRANCH} \
+	git://github.com/${FORK}/u-boot-private.git;protocol=https;branch=${BRANCH} \
 	file://run_qemu_virt.dtb \
 	file://0001-include-configs-starfive-dubhe-fpga.h-Mask-ttyS0-and.patch \
 	"

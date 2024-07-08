@@ -25,7 +25,7 @@ LINUX_VERSION_EXTENSTION:append:starfive-dubhe = "-starlight"
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
 SRC_URI:starfive-dubhe = " \
-        git://github.com/${FORK}/linux.git;protocol=https;branch=${BRANCH} \
+        git://github.com/${FORK}/linux-private.git;protocol=https;branch=${BRANCH} \
         file://cpio.cfg \
         "
 
